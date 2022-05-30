@@ -5,6 +5,10 @@ import { Counter } from './Counter';
 import { Fibonacci } from './Fibonacci';
 import { Login } from './Show';
 import { List } from './For';
+import { Between } from './Switch';
+import { Colors } from './Dynamic';
+import { PortalComponent } from './Portal';
+import { ErrorBoundaryComponent } from './ErrorBoundary';
 
 const App: Component = () => {
   return (
@@ -13,7 +17,11 @@ const App: Component = () => {
         {/* <Counter /> */}
         {/* <Fibonacci /> */}
         {/* <Login /> */}
-        <List />
+        {/* <List /> */}
+        {/* <Between /> */}
+        {/* <Colors /> */}
+        {/* <PortalComponent /> */}
+        <ErrorBoundaryComponent />
       </header>
     </div>
   );
